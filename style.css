@@ -5,14 +5,19 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   scroll-behavior: smooth;
+  background:pink
 }
 
 nav {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background: lightgray;
+  background: rgb(255, 255, 255);
   padding: 25px;
+}
+
+h2, a{
+  background:transparent;
 }
 
 main {
@@ -51,6 +56,8 @@ footer {
 
 .initials {
   color: blueviolet;
+  border-radius: 100%;
+  padding: 10px;
 }
 
 img {
